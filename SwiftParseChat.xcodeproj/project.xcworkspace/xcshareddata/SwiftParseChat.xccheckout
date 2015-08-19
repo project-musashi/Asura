@@ -12,22 +12,34 @@
 	<dict>
 		<key>1AE78C9356749352D2E92F71DBB4DA9C993B6A62</key>
 		<string>https://github.com/huyouare/SwiftParseChat.git</string>
+		<key>95D5369ECB8AB2FA28174E19617CBC2BA94B1EF5</key>
+		<string>https://github.com/project-musashi/Asura.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SwiftParseChat.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1AE78C9356749352D2E92F71DBB4DA9C993B6A62</key>
+		<string>../../../SwiftParseChat</string>
+		<key>95D5369ECB8AB2FA28174E19617CBC2BA94B1EF5</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/huyouare/SwiftParseChat.git</string>
+	<string>https://github.com/project-musashi/Asura.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1AE78C9356749352D2E92F71DBB4DA9C993B6A62</string>
+	<string>95D5369ECB8AB2FA28174E19617CBC2BA94B1EF5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95D5369ECB8AB2FA28174E19617CBC2BA94B1EF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Asura</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
