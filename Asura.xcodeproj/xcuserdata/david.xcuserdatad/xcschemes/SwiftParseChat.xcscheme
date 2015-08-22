@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "831C19101A97F5CA000FD6D0"
-               BuildableName = "SwiftParseChat.app"
-               BlueprintName = "SwiftParseChat"
-               ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+               BuildableName = "Asura.app"
+               BlueprintName = "Asura"
+               ReferencedContainer = "container:Asura.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "831C19271A97F5CA000FD6D0"
-               BuildableName = "SwiftParseChatTests.xctest"
-               BlueprintName = "SwiftParseChatTests"
-               ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+               BuildableName = "AsuraTests.xctest"
+               BlueprintName = "AsuraTests"
+               ReferencedContainer = "container:Asura.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "831C19271A97F5CA000FD6D0"
-               BuildableName = "SwiftParseChatTests.xctest"
-               BlueprintName = "SwiftParseChatTests"
-               ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+               BuildableName = "AsuraTests.xctest"
+               BlueprintName = "AsuraTests"
+               ReferencedContainer = "container:Asura.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831C19101A97F5CA000FD6D0"
-            BuildableName = "SwiftParseChat.app"
-            BlueprintName = "SwiftParseChat"
-            ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+            BuildableName = "Asura.app"
+            BlueprintName = "Asura"
+            ReferencedContainer = "container:Asura.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831C19101A97F5CA000FD6D0"
-            BuildableName = "SwiftParseChat.app"
-            BlueprintName = "SwiftParseChat"
-            ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+            BuildableName = "Asura.app"
+            BlueprintName = "Asura"
+            ReferencedContainer = "container:Asura.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831C19101A97F5CA000FD6D0"
-            BuildableName = "SwiftParseChat.app"
-            BlueprintName = "SwiftParseChat"
-            ReferencedContainer = "container:SwiftParseChat.xcodeproj">
+            BuildableName = "Asura.app"
+            BlueprintName = "Asura"
+            ReferencedContainer = "container:Asura.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

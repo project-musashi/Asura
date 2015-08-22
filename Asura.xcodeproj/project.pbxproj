@@ -131,13 +131,13 @@
 		4A70FB85D99A4537AA0A5A3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E792D971850373ACD6EB87A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8311CFF21AA97FDD0081674A /* AddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
-		831C19111A97F5CA000FD6D0 /* SwiftParseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftParseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C19111A97F5CA000FD6D0 /* Asura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831C19151A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831C19161A97F5CA000FD6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831C191D1A97F5CA000FD6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831C191F1A97F5CA000FD6D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		831C19221A97F5CA000FD6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		831C19281A97F5CA000FD6D0 /* SwiftParseChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftParseChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C19281A97F5CA000FD6D0 /* AsuraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsuraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831C192D1A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftParseChatTests.swift; sourceTree = "<group>"; };
 		831C193B1A98085B000FD6D0 /* chat_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_blank@2x.png"; sourceTree = "<group>"; };
@@ -363,8 +363,8 @@
 		831C19121A97F5CA000FD6D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				831C19111A97F5CA000FD6D0 /* SwiftParseChat.app */,
-				831C19281A97F5CA000FD6D0 /* SwiftParseChatTests.xctest */,
+				831C19111A97F5CA000FD6D0 /* Asura.app */,
+				831C19281A97F5CA000FD6D0 /* AsuraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -748,9 +748,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		831C19101A97F5CA000FD6D0 /* SwiftParseChat */ = {
+		831C19101A97F5CA000FD6D0 /* Asura */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831C19321A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "SwiftParseChat" */;
+			buildConfigurationList = 831C19321A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "Asura" */;
 			buildPhases = (
 				732892520EB249828928D66D /* Check Pods Manifest.lock */,
 				831C190D1A97F5CA000FD6D0 /* Sources */,
@@ -763,14 +763,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftParseChat;
+			name = Asura;
 			productName = SwiftParseChat;
-			productReference = 831C19111A97F5CA000FD6D0 /* SwiftParseChat.app */;
+			productReference = 831C19111A97F5CA000FD6D0 /* Asura.app */;
 			productType = "com.apple.product-type.application";
 		};
-		831C19271A97F5CA000FD6D0 /* SwiftParseChatTests */ = {
+		831C19271A97F5CA000FD6D0 /* AsuraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831C19351A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "SwiftParseChatTests" */;
+			buildConfigurationList = 831C19351A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "AsuraTests" */;
 			buildPhases = (
 				831C19241A97F5CA000FD6D0 /* Sources */,
 				831C19251A97F5CA000FD6D0 /* Frameworks */,
@@ -781,9 +781,9 @@
 			dependencies = (
 				831C192A1A97F5CA000FD6D0 /* PBXTargetDependency */,
 			);
-			name = SwiftParseChatTests;
+			name = AsuraTests;
 			productName = SwiftParseChatTests;
-			productReference = 831C19281A97F5CA000FD6D0 /* SwiftParseChatTests.xctest */;
+			productReference = 831C19281A97F5CA000FD6D0 /* AsuraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -793,7 +793,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Jesse Hu";
+				ORGANIZATIONNAME = "Miyamoto Musashi";
 				TargetAttributes = {
 					831C19101A97F5CA000FD6D0 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -804,7 +804,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 831C190C1A97F5CA000FD6D0 /* Build configuration list for PBXProject "SwiftParseChat" */;
+			buildConfigurationList = 831C190C1A97F5CA000FD6D0 /* Build configuration list for PBXProject "Asura" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -830,8 +830,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				831C19101A97F5CA000FD6D0 /* SwiftParseChat */,
-				831C19271A97F5CA000FD6D0 /* SwiftParseChatTests */,
+				831C19101A97F5CA000FD6D0 /* Asura */,
+				831C19271A97F5CA000FD6D0 /* AsuraTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1005,7 +1005,7 @@
 /* Begin PBXTargetDependency section */
 		831C192A1A97F5CA000FD6D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 831C19101A97F5CA000FD6D0 /* SwiftParseChat */;
+			target = 831C19101A97F5CA000FD6D0 /* Asura */;
 			targetProxy = 831C19291A97F5CA000FD6D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1148,7 +1148,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftParseChat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Asura;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftParseChat/SwiftParseChat-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";
@@ -1174,7 +1174,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftParseChat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Asura;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftParseChat/SwiftParseChat-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";
@@ -1195,7 +1195,7 @@
 				);
 				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsuraTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
 			};
 			name = Debug;
@@ -1210,7 +1210,7 @@
 				);
 				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsuraTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
 			};
 			name = Release;
@@ -1218,7 +1218,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		831C190C1A97F5CA000FD6D0 /* Build configuration list for PBXProject "SwiftParseChat" */ = {
+		831C190C1A97F5CA000FD6D0 /* Build configuration list for PBXProject "Asura" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C19301A97F5CB000FD6D0 /* Debug */,
@@ -1227,7 +1227,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831C19321A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "SwiftParseChat" */ = {
+		831C19321A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "Asura" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C19331A97F5CB000FD6D0 /* Debug */,
@@ -1236,7 +1236,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831C19351A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "SwiftParseChatTests" */ = {
+		831C19351A97F5CB000FD6D0 /* Build configuration list for PBXNativeTarget "AsuraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C19361A97F5CB000FD6D0 /* Debug */,
